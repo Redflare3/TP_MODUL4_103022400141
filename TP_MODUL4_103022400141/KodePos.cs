@@ -18,8 +18,7 @@ namespace TP_MODUL4_103022400141
             KEBONWARU,
             MALEER
         }
-        public static int getKodePos(KodePosType type)
-        {
+        public static int getKodePos(KodePosType type){
             int[] kodePosList = { 40266, 40287, 40267, 40256, 40287, 40286, 40286, 40286, 40272, 40274 };
             return kodePosList[(int)type];
         }
